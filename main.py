@@ -1,6 +1,6 @@
 import sys
 
-from PyQt6.QtWidgets import QWidget, QApplication, QMainWindow, QLineEdit, \
+from PyQt6.QtWidgets import QApplication, QMainWindow, QLineEdit, \
                             QPushButton, QTextEdit
 
 
@@ -24,10 +24,6 @@ class ChatbotWindow(QMainWindow):
         self.button.setGeometry(500, 340, 100, 40)
 
         self.show()
-
-
-class Chatbot:
-    pass
 
 
 app = QApplication(sys.argv)
