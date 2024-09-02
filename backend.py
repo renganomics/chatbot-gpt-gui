@@ -1,7 +1,7 @@
 import openai
 import os
 
-password = os.environ["CHATPASS"]
+password = os.environ["OPENAI_API_KEY"]
 
 
 class Chatbot:
